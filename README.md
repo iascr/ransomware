@@ -1,2 +1,4 @@
 # ransomware
 Tarea Maestría en Ciberseguridad del Instituto Tecnologico Costarricense.
+
+El proyecto del curso de Principios de Seguridad en Sistemas Operativos titulado como “Devil maid” del idioma inglés que traducido al español quiere decir “Criada malvada” se define como “un ataque tan discreto como una criada que entra en una casa mientras los propietarios están ausentes”; partiendo de esta definición en un lenguaje cibernético se deduce que el malware tiene como objetivo darle potestad al atacante por medio de acceso físico al equipo de cómputo para que instale un programa malicioso que evidentemente provoque un daño prácticamente irreversible; a lo largo de esta investigación se ejemplificará por medio de un ransomware en el lenguaje de programación Python en la plataforma de Windows 10 usando el símbolo del sistema de Windows (cmd) y su sucesos PowerShell por medio de líneas de comandos que no serán percibidas por la victima
